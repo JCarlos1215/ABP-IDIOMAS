@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Duolingo",
-    "slug": "Duolingo",
+    "name": "abp",
+    "slug": "abp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",

@@ -9,11 +9,11 @@ const styles = StyleSheet.create({
   },
   foreground: {
     flex: 1,
-    backgroundColor: "#fac800",
+    backgroundColor: "#4DFF53",
     borderRadius: 15
   },
   highlight: {
-    backgroundColor: "#fad131",
+    backgroundColor: "#4DFF53",
     width: "90%",
     height: 5,
     borderRadius: 5,

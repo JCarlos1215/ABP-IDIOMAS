@@ -16,7 +16,7 @@ function App() {
 
   useEffect(() => {
     if (questions.length <= currentQuestionIndex) {
-      Alert.alert("You won!");
+      Alert.alert("Ganaste");
       setCurrentQuestionIndex(0);
     } else {
       setCurrentQuestion(questions[currentQuestionIndex]);
@@ -34,14 +34,14 @@ function App() {
 
   const onWrong = () => {
     if (lives <= 1) {
-      Alert.alert('Game Over', 'Try again', [
+      Alert.alert('Perdiste', 'intentalo de nuevo', [
         {
-          text: 'Try again',
+          text: 'intentalo de nuevo',
           onPress: restart
         }
       ]);
     } else {
-      Alert.alert('Wrooooooong!');
+      Alert.alert('Respuesta Incorrecta!');
       setLives(lives - 1);
     }
   };

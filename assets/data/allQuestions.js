@@ -4,21 +4,21 @@ export default [
     type: "FILL_IN_THE_BLANK",
     parts: [
       {
-        text: "la",
-        isBlank: true,
-      },
-      {
-        text: "nino",
-      },
-      {
         text: "el",
         isBlank: true,
       },
       {
-        text: "nina",
+        text: "niño",
+      },
+      {
+        text: "la",
+        isBlank: true,
+      },
+      {
+        text: "niña",
       },
     ],
-    options: ["la", "mujer", "en", "el"]
+    options: ["el", "mujer", "en", "la"]
   },
   {
     id: "q1",

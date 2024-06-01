@@ -4,11 +4,11 @@ const styles = StyleSheet.create({
   root: {
     flexDirection: "row",
     alignItems: "center",
-    marginBottom: 12
+    marginBottom: 1
   },
   icon: {
-    height: 30,
-    width: 30,
+    height: 20,
+    width: 20,
     marginHorizontal: 10
   },
   lives: {
