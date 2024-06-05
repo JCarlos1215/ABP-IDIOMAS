@@ -16,8 +16,9 @@ function App() {
 
   useEffect(() => {
     if (questions.length <= currentQuestionIndex) {
-      Alert.alert("Ganaste");
+      Alert.alert("Ganaste",`Intento número: ${intentos}`);
       setCurrentQuestionIndex(0);
+
     } else {
       setCurrentQuestion(questions[currentQuestionIndex]);
     }
@@ -33,6 +34,7 @@ function App() {
   };
 
   const onWrong = () => {
+
     if (lives <= 1) {
       Alert.alert('Perdiste', 'intentalo de nuevo', [
         {
@@ -43,8 +45,24 @@ function App() {
     } else {
       Alert.alert('Respuesta Incorrecta!');
       setLives(lives - 1);
+      
+      
     }
   };
+
+  let intentos = 0;
+
+  let objetivoAlcanzado = false;
+  
+  
+  while (!objetivoAlcanzado) {
+      intentos++;
+      
+      if (intentos === 6) { 
+          objetivoAlcanzado = true;
+      }
+  }
+  
 
   const saveData = async () => {
     await AsyncStorage.setItem('lives', lives.toString());
