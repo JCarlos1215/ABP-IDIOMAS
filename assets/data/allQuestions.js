@@ -56,7 +56,7 @@ export default [
     id: "q2",
     type: "OPEN_ENDED",
     text: "Yo soy un hombre",
-    answer: "I am a man",
+    answer: ("I am a man","im a man"),
   },
   {
     id: "q3",
@@ -133,7 +133,7 @@ export default [
     id: "q5",
     type: "OPEN_ENDED",
     text: "Yo soy un niño",
-    answer: "i am a children",
+    answer: ("i am a children", "im a children"),
   },
   {
     id: "q6",
