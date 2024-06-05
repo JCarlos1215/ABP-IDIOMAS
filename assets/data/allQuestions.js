@@ -56,7 +56,8 @@ export default [
     id: "q2",
     type: "OPEN_ENDED",
     text: "Yo soy un hombre",
-    answer: ("I am a man","im a man"),
+    answer: ("i am a man","im a man"),
+  
   },
   {
     id: "q3",
