@@ -10,7 +10,6 @@
       "image": "./assets/logoabp.png",
       "resizeMode": "contain",
       "backgroundColor": "#0EA3FF"
-      
     },
     "assetBundlePatterns": [
       "**/*"
@@ -26,6 +25,11 @@
     },
     "web": {
       "favicon": "./assets/logoabp.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "65e11af2-902a-400b-81c8-cb5ac22bb339"
+      }
     }
   }
 }
